@@ -1,0 +1,139 @@
+ body {
+     background-color: #EDEBFF;
+     font-family: 'Manrope', sans-serif;
+ }
+
+ h4 {
+     margin-bottom: 10px;
+     padding-left: 25px;
+     font-weight: 600;
+
+
+ }
+
+ span {
+     color: #001A72;
+ }
+
+ .input {
+     padding-left: 30px;
+
+
+
+
+ }
+
+ .input-form {
+
+     border: 2px solid #00488B;
+     /* Mengubah warna border menjadi ungu */
+     border-radius: 10px;
+     /* Membuat sudut lebih bulat */
+     background-color: white;
+
+     width: 80%;
+
+
+
+ }
+
+
+
+ .btn-card {
+     padding-left: 30px;
+
+
+
+ }
+
+
+ .btn-login {
+     background-color: #001A72;
+     border-color: #001A72;
+     color: white;
+     font-size: 1.25rem;
+     border-radius: 10px;
+     width: 80%;
+
+     /* Memperbesar font */
+
+ }
+
+ .btn-login:hover {
+     background-color: #04113a;
+     border-color: #04113a;
+     color: white;
+ }
+
+ .btn-daftar {
+     background-color: white;
+     border-color: #8681FE;
+     color: #8681FE;
+     font-size: 1.25rem;
+     border-radius: 10px;
+
+     /* Memperbesar font */
+
+ }
+
+ .form-check {
+     margin-right: 86px;
+ }
+
+ .btn-daftar:hover {
+     background-color: white;
+     border-color: #564bb7;
+     color: #8681FE;
+ }
+
+
+ /* Style untuk card login */
+ .card {
+     margin: 20px;
+ }
+
+ h3.card-title {
+     font-size: 1.8rem;
+     margin: 0;
+ }
+
+ p {
+     font-size: 1rem;
+ }
+
+ /* Responsive tweaks */
+ @media (max-width: 768px) {
+     .card-body {
+         padding: 20px;
+     }
+
+     h3.card-title {
+         font-size: 1.5rem;
+     }
+
+     p {
+         font-size: 0.9rem;
+         padding-left: 0;
+         text-align: center;
+     }
+
+     .btn-card {
+         margin-top: 20px;
+     }
+ }
+
+ .img-login {
+     object-fit: cover;
+     margin-top: 110px;
+     margin-left: -80px;
+     width: 100%;
+     /* Atur lebar gambar agar memenuhi kolom */
+     height: auto;
+     /* Membuat proporsi gambar tetap */
+
+
+ }
+
+ .card {
+     width: 860px;
+ }

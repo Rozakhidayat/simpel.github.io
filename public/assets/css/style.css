@@ -1255,4 +1255,9 @@ span{
   margin-left: 20px;
 }
 
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+
 

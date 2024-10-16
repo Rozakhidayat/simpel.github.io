@@ -31,7 +31,8 @@
                                     <div class="d-flex align-items-center">
                                         <div
                                             class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                            <i class="bi bi-people"></i>
+                                            <a href="{{ route('data_mahasiswa.index') }}" class="link"><i
+                                                    class="bi bi-people"></i></a>
                                         </div>
                                         <div class="ps-3">
                                             <h6>{{ $totalMahasiswa }}</h6>
@@ -56,7 +57,8 @@
                                     <div class="d-flex align-items-center">
                                         <div
                                             class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                            <i class="bi bi-people"></i>
+                                            <a href="{{ route('dosen_pa.index') }}" class="link"><i
+                                                    class="bi bi-people"></i></a>
                                         </div>
                                         <div class="ps-3">
                                             <h6>{{ $totaldosenPA }}</h6>
@@ -81,10 +83,14 @@
                                     <div class="d-flex align-items-center">
                                         <div
                                             class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                                            <i class="bi bi-collection"></i>
+                                            <a href="{{ route('laporanadmin.index') }}" class="link">
+                                                <i class="bi bi-collection"></i>
+                                            </a>
+
+
                                         </div>
                                         <div class="ps-3">
-                                            <h6>{{$totalLaporan}}</h6>
+                                            <h6>{{ $totalLaporan }}</h6>
 
 
                                         </div>

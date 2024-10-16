@@ -16,8 +16,8 @@ use App\Http\Controllers\Admin\DosenController;
 
 
 Route::get('/', function () {
-    return view('layouts.master');
-})->middleware(['auth', 'verified'])->name('master');
+    return view('auth.login');
+});
 
 
 

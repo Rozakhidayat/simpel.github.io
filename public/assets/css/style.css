@@ -1234,10 +1234,10 @@ h6 {
 
 .label-detail {
   color: #001A72;
- 
+
 }
 
-span{
+span {
   color: black;
 }
 
@@ -1247,11 +1247,10 @@ span{
 
 .label-detail-mahasiswa-periode {
   margin-left: 332px;
- 
+
 }
 
-.span-detail
-{
+.span-detail {
   margin-left: 20px;
 }
 
@@ -1260,4 +1259,6 @@ span{
   text-decoration: none;
 }
 
-
+.dashboard {
+  color: #001A72;
+}

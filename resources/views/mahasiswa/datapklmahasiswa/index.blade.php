@@ -16,7 +16,7 @@
             </nav>
         </div>
 
-        <div class="container bg-white p-3 rounded"> <!-- Menggunakan container untuk memperkecil ukuran -->
+        <div class="container bg-white p-3 rounded"> 
             <div class="row">
                 <div class="col-md-12">
                     <h5 class="mb-4 ms-4"><strong>Detail Mahasiswa</strong></h5>

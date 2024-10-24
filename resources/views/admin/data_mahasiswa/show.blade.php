@@ -7,8 +7,7 @@
             <h1>Data Mahasiswa</h1>
             <nav>
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Data Mahasiswa</a></li>
-                    <li class="breadcrumb-item">Detail</li>
+                    <li class="breadcrumb-item"><a href="{{route('dashboard')}}">Home</a></li>
                     <li class="breadcrumb-item active">Detail Mahasiswa</li>
                 </ol>
             </nav>
